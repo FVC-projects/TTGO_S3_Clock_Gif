@@ -13,3 +13,9 @@ Devido ao ficheiro com as imagens (Clock.h) ser bastante pesado é necessário, 
     -> Partition Scheme: "Huge APP (3MB No OTA)
 
 ![image](https://github.com/FVC-projects/TTGO_S3_Clock_Gif/assets/157984341/e7b92599-b27b-48a0-b28c-ded3653a0c42)
+
+Configurações no Ficheiro TTGO_S3_Clock:
+
+- Configurar Nome da Rede WIFI e Passaword
+
+- Configurar TimeZone
