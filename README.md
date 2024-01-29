@@ -16,6 +16,6 @@ Devido ao ficheiro com as imagens (Clock.h) ser bastante pesado é necessário, 
 
 Configurações no Ficheiro TTGO_S3_Clock.ino:
 
-- Configurar Nome da Rede WIFI e Passaword
+- Configurar Nome da Rede WIFI e Password
 
-- Configurar TimeZone
+- Configurar TimeZone de acordo com o país (está configurado para GMT+0 - Lisboa)
