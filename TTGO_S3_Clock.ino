@@ -1,6 +1,5 @@
-// FVC Nov 2022
-// NOTA: antes de efetuar upload
-// selecionar Partition Scheme: "Huge APP (3MB No OTA)
+// NOTE: Before upload
+// select Partition Scheme: "Huge APP (3MB No OTA)
 
 #include "Arduino.h"
 #include "TFT_eSPI.h"/* Please use the TFT library provided in the library. */
@@ -18,11 +17,11 @@ TFT_eSprite spriteClock5 = TFT_eSprite(&lcd);
 TFT_eSprite spriteClock6 = TFT_eSprite(&lcd);
 
 
-const char* ssid     = "CUB QUARTOS 2 ANDAR";
-const char* password = "WCUBWCUB";
+const char* ssid     = "****";   // Your Network Name
+const char* password = "****";  // WIFI Passowrd
 
 const char* ntpServer = "pool.ntp.org";
-const long  gmtOffset_sec = 0; //GMT +0
+const long  gmtOffset_sec = 0; //GMT +0   //change to your Timezone
 const int   daylightOffset_sec = 3600;
 
 int fr=0;
@@ -76,10 +75,8 @@ void setup() {
   lcd.setTextColor(TFT_BLACK,TFT_ORANGE);
   lcd.setFreeFont(&FreeMono12pt7b); 
   lcd.drawString("Wifi Connected!",10,20);
-//  lcd.drawString("IP: "+WiFi.localIP(),10,30);
   Serial.println("WiFi connected.");
   delay(500);
-//  lcd.fillScreen(TFT_ORANGE);
 
   configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
 
