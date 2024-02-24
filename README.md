@@ -6,13 +6,14 @@ Configurado para o LILYGO T-Display Esp32-S3 (resolução 170 x 320)
 
 ![image](https://github.com/FVC-projects/TTGO_S3_Clock_Gif/assets/157984341/801eddf2-8038-472a-a283-0b954a90e6f5)
 
+![Imagem2](https://github.com/FVC-projects/TTGO_S3_Clock_Gif/assets/157984341/3dced6ba-0fdf-4124-be1e-da6f658df6d0)
 
-![Imagem1](https://github.com/FVC-projects/TTGO_S3_Clock_Gif/assets/157984341/44c618c1-423a-4386-991a-49ddbca2463b)
 
 Devido ao ficheiro com as imagens (Clock.h) ser bastante pesado é necessário, antes do Upload, configurar a Placa:
+
 -> "ESP32S3 Dev Module":
 
-    -> Partition Scheme: "Huge APP (3MB No OTA)
+-> Partition Scheme: "Huge APP (3MB No OTA)
 
 ![image](https://github.com/FVC-projects/TTGO_S3_Clock_Gif/assets/157984341/e7b92599-b27b-48a0-b28c-ded3653a0c42)
 
